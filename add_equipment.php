@@ -22,11 +22,14 @@
             margin-top: 10px;
         }
 
-        input[type="text"],
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+        }
+
         select {
             width: 100%;
-            padding: 4px; /* Reducir el tamaño del texto */
-            box-sizing: border-box; /* Evitar que el padding afecte el tamaño total */
+            padding: 8px;
         }
 
         input[type="submit"] {
@@ -46,17 +49,11 @@
         <input type="text" id="equipmentName" name="equipmentName" required>
 
         <label for="city">City:</label>
-        <select id="city" name="city">
-            <option value="Cali">Cali</option>
-            <option value="Medellin">Medellin</option>
-            <option value="Bucaramanga">Bucaramanga</option>
-            <option value="Barranquilla">Barranquilla</option>
-            <option value="Bogota">Bogota</option>
-            <!-- Agrega más opciones de ciudad si es necesario -->
-        </select>
+        <input type="text" id="city" name="" required>
+
 
         <label for="serviceTag">Service Tag:</label>
-        <input type="text" id="serviceTag" name "serviceTag" required>
+        <input type="text" id="serviceTag" name="serviceTag" required>
 
         <label for="campaign">Campaign:</label>
         <input type="text" id="campaign" name="campaign">
@@ -90,7 +87,7 @@
 
         <label for="observations">Observations:</label>
         <input type="text" id="observations" name="observations">
- <br><br>
+
         <input type="submit" value="Add Equipment">
     </form>
 </body>

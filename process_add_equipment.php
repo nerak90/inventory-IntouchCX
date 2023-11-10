@@ -1,9 +1,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $equipmentName = $_POST["equipmentName"];
-    $cityId = $_POST["cityId"];
+    $cityId = $_POST["City"];
     $campaign = $_POST["campaign"];
-    $size = $_POST["size"];
+    $size = $_POST["cpuSize"];
 
     // Conexión a la base de datos
     $servername = "localhost";
@@ -30,4 +30,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-

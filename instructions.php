@@ -45,7 +45,7 @@
 
         p {
             font-size: 18px;
-            line-height: 1.0; /* Line spacing of 1.5 */
+            line-height: 1.5; /* Line spacing of 1.5 */
         }
 
         a {
@@ -59,6 +59,12 @@
 
         .instructions {
             text-align: left;
+        }
+
+        /* Añadir regla para ajustar el tamaño del icono */
+        img {
+            width: 50px; /* Puedes ajustar este valor según tus necesidades */
+            height: auto; /* Mantener la proporción original */
         }
     </style>
 </head>
@@ -86,6 +92,5 @@
 <p><em>Created by: Karen Tapias Sossa</em></p>
 <img src="images/mujer.png" alt="Icon">
         </div>
-    </div>
-</body>
+    </div>y>
 </html>
